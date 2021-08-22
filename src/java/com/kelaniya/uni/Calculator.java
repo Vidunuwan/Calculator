@@ -28,7 +28,7 @@ public class Calculator {
         }
         Calculator c=new Calculator();
         Scanner in=new Scanner(System.in);
-        System.out.print("Press 1 for Addition\nPress 2 for Subtraction\nPress 2 for Multiplication\nEnter your Option:");
+        System.out.print("Press 1 for Addition\nPress 2 for Subtraction\nPress 3 for Multiplication\nEnter your Option:");
         int input=in.nextInt();
         while(input>3 || input<1){
             System.out.print("Wrong input Try again:");
@@ -41,6 +41,7 @@ public class Calculator {
             break;
             case 3:System.out.println(c.Multiplication(value[0],value[1]));
             break;
+
         }
     }
 }
